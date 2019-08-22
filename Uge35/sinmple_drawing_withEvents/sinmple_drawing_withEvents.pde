@@ -9,5 +9,9 @@ void draw(){
 }
 
 void mousePressed(){
-  
+  background(50);
+}
+
+void keyPressed(){
+  background(0, 255, 0);
 }
