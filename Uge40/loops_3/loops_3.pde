@@ -3,8 +3,6 @@ int ellipseSpacing = 20;
 
 void setup(){
   size(600, 1000);
-
-  
 }
 
 void draw(){
