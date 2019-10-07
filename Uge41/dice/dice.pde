@@ -13,13 +13,13 @@ void draw(){
   text("Press the number dice you want to roll", width/2, height/4);
   
   if (mousePressed && !diceWasRolled) {
-    text("Your roll is " + dice(20) , width/2, height/2);
+    text("Your roll is " + diceRoll(20) , width/2, height/2);
     diceWasRolled = !diceWasRolled;
   }
   text("Press enter to reset.", width/2, (height*3)/4);
 }
 
-int dice(int d){
+int diceRoll(int d){
   int number = int(random(1, d + 1));
   return number;
 }
