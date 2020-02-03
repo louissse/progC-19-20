@@ -19,6 +19,6 @@ class Catcher {
   display() {
     stroke(0);
     fill(175);
-    ellipse(this.x, this.y, this.r*2, this.r*2);
+    ellipse(this.x, this.y, this.r, this.r*2);
   }
 }
